@@ -85,7 +85,8 @@ void tarefa_3(void)
 	for(;;)
 	{
 		c++;
-		TarefaSuspende(2);
+		TarefaEspera(100); //fica em espera por 100 marcas de tempo
+		
 	}
 }
 
